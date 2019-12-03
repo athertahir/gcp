@@ -228,10 +228,7 @@ self-explanatory query history, saved queries, and job history, there is
 the *Resources* tab.
 
 The highest level of resources contain GCP projects, which are just like
-the temporary GCP projects you sign in to and use with each Qwiklab. As
-you can see in your console and in the last screenshot, we only have our
-Qwiklabs project housed in the Resources tab. If you try clicking on the
-arrow next the project name, nothing will show up.
+the temporary GCP projects you sign in to and use.
 
 This is because your project doesn't contain any datasets or tables, you
 have nothing that can be queried. Earlier you learned datasets contain
@@ -258,11 +255,11 @@ A new tab tab will open, and you will now have a new project called
 
 ![BQ\_pubdata.png](./f1yJh_CYs_KZ1D9Ta_U1mWAQh3VsOzu0Z+ecb5CYimY=)
 
-It's important to note that you are still working out of your Qwiklabs
+It's important to note that you are still working out of your
 project in this new tab. All you did was pull a publicly accessible
 project that contains datasets and tables into BigQuery for analysis —
 you didn't *switch over* to that project. All of your jobs and services
-are still tied to your Qwiklabs account. You can see this for yourself
+are still tied to your account. You can see this for yourself
 by inspecting the project field near the top of the console:
 
 ![BQ\_proj\_check.png](./eUyizy8IKV89BwSWBtOLM5MhJLemWB+CzgSHeaCbn1w=)

@@ -113,8 +113,7 @@ Default regions and zones are set by using the following values:
 
 To see what your default region and zone settings are, run the following
 `gcloud` command, replacing \<your\_project\_id\> which you can see on
-the Home page in the Console or look in the Qwiklabs tab where you
-started this lab, with your Project ID:
+the Home page in the Console with your Project ID:
 
     gcloud compute project-info describe --project <your_project_ID>
 

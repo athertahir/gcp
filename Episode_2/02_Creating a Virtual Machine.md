@@ -337,8 +337,7 @@ The instance created has these default values:
 -   The `n1-standard-2` [machine
     type](https://cloud.google.com/compute/docs/machine-types). In this
     lab you can select one of these other machine types if you'd like:
-    `n1-highmem-4` or `n1-highcpu-4`. When you're working on a project
-    outside of Qwiklabs, you can also specify a [custom machine
+    `n1-highmem-4` or `n1-highcpu-4`. You can also specify a [custom machine
     type](https://cloud.google.com/compute/docs/instances/creating-instance-with-custom-machine-type).
 -   A root persistent disk with the same name as the instance; the disk
     is automatically attached to the instance.
